@@ -88,5 +88,6 @@ module "mig" {
   db_host     = module.postgres.private_ip
   db_name     = "chewbacca"
   db_user     = "chewie"
+  db_user     = "han"
   db_password = "supersecret123"
 }
