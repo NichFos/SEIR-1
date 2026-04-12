@@ -17,3 +17,7 @@ output "kubectl_command" {
   value = "kubectl get nodes"
 }
 
+output "gke_get_credentials" {
+  value = "gcloud container clusters get-credentials primary --zone us-central1-a --project thailand-433607"
+}
+
